@@ -19,8 +19,24 @@ Route::get('/', function () {
 
 Route::get('/roto_4A', function () {
     return view('roto_4A');
-});
+})->name('roto_4A');
 
-Route::get('/roto_4B', function() {
+Route::get('/roto_4B', function () {
     return view('roto_4B');
-});
+})->name('roto_4B');
+
+Route::get('/roto_5A', function () {
+    return view('roto_5A');
+})->name('roto_5A');
+
+Route::get('/roto_5B', function () {
+    return view('roto_5B');
+})->name('roto_5B');
+
+Route::get('/rotoo_5C', function () {
+    return view('roto_5C');
+})->name('roto_5C');
+
+Route::get('/roto_5D', function () {
+    return view('roto_5D');
+})->name('roto_5D');

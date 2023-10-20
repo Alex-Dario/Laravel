@@ -59,14 +59,18 @@
             </tr>
         </tbody>
     </table>
-    <form action="cad.php" method="get">
-        <input type="submit" value="Roto 4A">
-        <input type="submit" value="Roto 4B">
-        <input type="submit" value="Roto 5A">
-        <input type="submit" value="Roto 5B">
-        <input type="submit" value="Roto 5C">
-        <input type="submit" value="Roto 5D">
+    <form method="get">
+        <input type="submit" value="Roto 4A" formaction="{{ route('roto_4A') }}">
+        <input type="submit" value="Roto 4B" formaction="{{ route('roto_4B') }}">
+        <input type="submit" value="Roto 5A" formaction="{{ route('roto_5A') }}">
+        <input type="submit" value="Roto 5B" formaction="{{ route('roto_5B') }}">
+        <input type="submit" value="Roto 5C" formaction="{{ route('roto_5C') }}">
+        <input type="submit" value="Roto 5D" formaction="{{ route('roto_5D') }}">
     </form>
+
+
+
+
 </body>
 
 </html>
